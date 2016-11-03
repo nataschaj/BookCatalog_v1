@@ -17,6 +17,7 @@ namespace Sandbox
         public void AddBook(Book aBook)
         {
             // Add code that can add the given Book object to the list
+            this.books = aBook + aBook;
         }
 
         public void PrintAllBooks()
