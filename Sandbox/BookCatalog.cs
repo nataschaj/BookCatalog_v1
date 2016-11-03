@@ -26,7 +26,7 @@ namespace Sandbox
             // Hint: You will need a repetition statement
             foreach (Book nobooks in books)
             {
-                Console.WriteLine(books.S);
+                Console.WriteLine(nobooks.GetAllInformation());
             }
         }
 
