@@ -39,6 +39,16 @@ namespace Sandbox
             // should be set to this book
             // Hint: You will need a repetition statement
 
+            // Look through all the books in the List
+            foreach (Book morebooks in books)
+            {
+                if (morebooks.GetISBN() == isbn) // We got a match!
+                {
+                    matchingBook = morebooks; // Now matchingBook refers to the book with the matching ISBN
+                }
+            }
+
+
             return matchingBook;
         }
     }
