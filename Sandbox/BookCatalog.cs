@@ -24,9 +24,9 @@ namespace Sandbox
         {
             // Add code that can print all books in the list
             // Hint: You will need a repetition statement
-            foreach ( nobooks in books)
+            foreach (Book nobooks in books)
             {
-
+                Console.WriteLine(PrintAllBooks);
             }
         }
 
